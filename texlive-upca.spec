@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-upca
 Version:	20111104
-Release:	2
+Release:	3
 Summary:	TeXLive upca package
 Group:		Publishing
 URL:		http://tug.org/texlive
