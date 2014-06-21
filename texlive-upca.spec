@@ -1,16 +1,15 @@
 # revision 22511
 # category Package
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
+# catalog-ctan /macros/generic/upca
+# catalog-date 2014-02-26 23:03:13 +0100
+# catalog-license lppl
 # catalog-version undef
 Name:		texlive-upca
-Version:	20111104
-Release:	7
-Summary:	TeXLive upca package
-Group:		Publishing
-URL:		http://tug.org/texlive
-License:	http://www.tug.org/texlive/LICENSE.TL
+Version:	20140226
+Release:	1
+Summary:	Print UPC-A barcodes
+URL:		http://www.ctan.org/tex-archive/macros/generic/upca
+License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/upca.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/upca.doc.tar.xz
 BuildArch:	noarch
@@ -19,7 +18,8 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-TeXLive upca package.
+The package defines a single macro \upca, to print UPC-A
+barcodes.
 
 %post
     %{_sbindir}/texlive.post
@@ -44,17 +44,3 @@ TeXLive upca package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111104-2
-+ Revision: 757324
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111104-1
-+ Revision: 719857
-- texlive-upca
-- texlive-upca
-- texlive-upca
-- texlive-upca
-
