@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-upca
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Print UPC-A barcodes
 URL:		http://www.ctan.org/tex-archive/macros/generic/upca
 License:	LPPL
