@@ -2,7 +2,7 @@ Name:		texlive-upca
 Version:	22511
 Release:	2
 Summary:	Print UPC-A barcodes
-URL:		http://www.ctan.org/tex-archive/macros/generic/upca
+URL:		https://www.ctan.org/tex-archive/macros/generic/upca
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/upca.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/upca.doc.r%{version}.tar.xz
